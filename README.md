@@ -26,6 +26,17 @@ Debouncer.create(fn, delay);
 <script src="https://unpkg.com/@root/debounce"></script>
 ```
 
+Or
+
+```html
+<script src="https://unpkg.com/@root/debounce@v1.0.1/debounce.min.js"></script>
+```
+
+```js
+var Debouncer = window.Debouncer;
+Debouncer.create(fn, ms);
+```
+
 ## Node.js / WebPack
 
 ```bash
@@ -34,11 +45,9 @@ npm install --save @root/debounce
 ```
 
 ```js
-var Debouncer = require('@root/debounce');
+var Debouncer = require("@root/debounce");
 Debouncer.create(fn, ms);
 ```
-
-
 
 # Example
 
