@@ -1,0 +1,22 @@
+{
+  "name": "@root/debounce",
+  "version": "1.0.0",
+  "description": "Debounce async functions and reject or resolve, as promised :)",
+  "main": "debounce.js",
+  "files": ["debounce.min.js"],
+  "scripts": {
+    "prepare": "uglifyjs debounce.js -o debounce.min.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/therootcompany/debounce.js.git"
+  },
+  "keywords": ["debounce", "promise", "promises", "async", "await"],
+  "author": "AJ ONeal <coolaj86@gmail.com> (https://coolaj86.com/)",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/therootcompany/debounce.js/issues"
+  },
+  "homepage": "https://github.com/therootcompany/debounce.js#readme"
+}

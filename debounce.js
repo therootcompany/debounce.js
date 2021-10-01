@@ -3,6 +3,7 @@ var Debouncer;
 (function () {
   "use strict";
 
+  // should work with browser, node, ...and maybe even webpack?
   if ("undefined" !== typeof module) {
     Debouncer = module.exports;
   } else {

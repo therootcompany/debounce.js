@@ -18,6 +18,28 @@ Debouncer.create(fn, delay);
 - Resolves when
   - [x] the call is not debounced AND your function resolves
 
+# Install
+
+## Browser
+
+```html
+<script src="https://unpkg.com/@root/debounce"></script>
+```
+
+## Node.js / WebPack
+
+```bash
+# node.js
+npm install --save @root/debounce
+```
+
+```js
+var Debouncer = require('@root/debounce');
+Debouncer.create(fn, ms);
+```
+
+
+
 # Example
 
 ```js
