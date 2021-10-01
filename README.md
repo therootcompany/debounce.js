@@ -1,12 +1,19 @@
-# debounce.js
+# [@root/debounce](https://github.com/therootcompany.com/debounce.js)
 
 Debounce async functions and reject or resolve, as promised :)
 
 # Usage
 
 ```js
-// Usage
-Debouncer.create(fn, delay);
+let delay = 300; // ms
+
+let doStuff = Debouncer.create(function (x) {
+  console.log("Finally!", x);
+}, 300);
+
+doStuff("a"); // debounced
+doStuff("b"); // debounced
+doStuff("c"); // "Finally! c" (after 300ms)
 ```
 
 # Features
