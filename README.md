@@ -23,7 +23,7 @@ Debouncer.create(fn, delay);
 ```js
 async function doStuff() {
   console.log("Doing important things...");
-  await sleep(100);  
+  await sleep(100);
   console.log("Did important things!");
 }
 
